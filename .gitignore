@@ -1,0 +1,28 @@
+# STM32CubeIDE generated files
+*.launch
+*.settings/
+*.metadata/
+*.load
+*.bin
+*.hex
+*.elf
+*.map
+*.list
+*.o
+*.d
+*.log
+
+# Build directory
+/Debug/
+/Release/
+
+# IDE specific
+/.project
+/.cproject
+/.vscode/
+.idea/
+*.swp
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
