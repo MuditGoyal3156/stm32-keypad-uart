@@ -4,7 +4,7 @@ This project demonstrates how to interface a **4x4 keypad** with an **STM32F446R
 
 ---
 
-## 🔧 Hardware Used
+## Hardware Used
 
 - STM32F446RE (Nucleo Board or bare chip)
 - 4x4 Matrix Keypad
@@ -13,7 +13,7 @@ This project demonstrates how to interface a **4x4 keypad** with an **STM32F446R
 
 ---
 
-## 📦 Features
+## Features
 
 - Scans a 4x4 keypad matrix
 - Displays pressed key via UART at **115200 baud**
@@ -23,9 +23,9 @@ This project demonstrates how to interface a **4x4 keypad** with an **STM32F446R
 
 ---
 
-## 🧰 Dependencies
+## Dependencies
 
-> ✅ No external libraries or HAL drivers are used.
+> No external libraries or HAL drivers are used.
 
 - `#include "stm32f4xx.h"` is used for register definitions.
 - This file is part of the **CMSIS device headers**, automatically included with **STM32CubeIDE** or from [ST's STM32F4 CMSIS Pack](https://www.st.com/en/embedded-software/stm32cubef4.html).
@@ -49,11 +49,11 @@ Use **RealTerm**, **TeraTerm**, or any serial monitor to view output.
 
 ---
 
-## ⚡ Wiring Details
+## Wiring Details
 
 The 4x4 keypad has **8 pins**: 4 rows and 4 columns. Here's how you can connect it:
 
-### ➕ Keypad to STM32 Wiring
+### Keypad to STM32 Wiring
 
 | Keypad Pin | Function | STM32 Pin           |
 |------------|----------|---------------------|
@@ -73,7 +73,7 @@ The 4x4 keypad has **8 pins**: 4 rows and 4 columns. Here's how you can connect 
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 - Microcontroller scans columns one at a time.
 - When a row goes LOW while scanning a column, it means that button is pressed.
@@ -81,7 +81,7 @@ The 4x4 keypad has **8 pins**: 4 rows and 4 columns. Here's how you can connect 
 
 ---
 
-## 🛠️ Build and Flash Instructions
+## Build and Flash Instructions
 
 1. Open the project in **STM32CubeIDE**.
 2. Ensure correct device is selected (STM32F446RE).
@@ -91,13 +91,13 @@ The 4x4 keypad has **8 pins**: 4 rows and 4 columns. Here's how you can connect 
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Developed using STM32CubeIDE
 - Inspired by classic keypad + UART examples in embedded systems
