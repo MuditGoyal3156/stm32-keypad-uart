@@ -34,7 +34,7 @@ To build this project, install **STM32CubeIDE** and create a project with the co
 
 ---
 
-## 🔌 Serial Configuration
+## Serial Configuration
 
 | Parameter | Value     |
 |-----------|-----------|
