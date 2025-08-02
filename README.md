@@ -20,23 +20,6 @@ This project demonstrates how to interface a **4x4 keypad** with an **STM32F446R
 - Minimal bare-metal code without STM32 HAL
 - Custom UART and Keypad drivers
 
----
-
-## 🗂️ Folder Structure
-
-├── Inc/ # Header files
-│ ├── keypad.h
-│ └── uart.h
-├── Src/ # Source files
-│ ├── main.c
-│ ├── keypad.c
-│ ├── uart.c
-│ ├── syscalls.c
-│ └── sysmem.c
-├── Startup/ # Startup assembly file
-│ └── startup_stm32f446retx.s
-├── README.md # This file
-└── LICENSE # MIT License
 
 ---
 
@@ -62,15 +45,6 @@ To build this project, install **STM32CubeIDE** and create a project with the co
 | Flow Ctrl | None      |
 
 Use **RealTerm**, **TeraTerm**, or any serial monitor to view output.
-
----
-
-## 📲 Keypad Mapping 
-
-[1] [2] [3] [A]
-[4] [5] [6] [B]
-[7] [8] [9] [C]
-[*] [0] [#] [D]
 
 
 ---
